@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    root: info
+    '[org.springframework.web]': debug
+    '[org.hibernate]': error
+
+spring:
+  application:
+    name: "App"
+    
